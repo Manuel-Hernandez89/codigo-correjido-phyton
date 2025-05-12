@@ -1,0 +1,13 @@
+while True :
+    base = float(input("Ingresa la base del triángulo: "))
+    altura = float(input("Ingresa la altura del triángulo: "))
+    area =(base * altura) / 2
+    print(f"\nEl área del triángulo es: {area}")
+    if area > 100:
+        print("El área es mayor que 100.")
+    elif area < 100:
+        print("El área es menor que 100.")
+    repetir = input("\n Quieres calcular otra area (sí/no): ").strip().lower()
+    if repetir != "sí":
+        print("nos vemos")
+        break
