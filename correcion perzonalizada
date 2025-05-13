@@ -8,7 +8,7 @@ def mostrar_saludo():
 ventana = tk.Tk()
 ventana.title("Saludo perzonalizado creado por Manuel")
 ventana.geometry("777x430")
-ventana.config(bg="orange")  # Fondo celeste (elige otro si eres otro alumno)
+ventana.config(bg="orange")  
 tk.Label(ventana, text="Nombre:", bg="orange").pack()
 entrada_nombre = tk.Entry(ventana)
 entrada_nombre.pack()
